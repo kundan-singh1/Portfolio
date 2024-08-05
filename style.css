@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 30px 50px;
+}
+.logo span{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+.logo span:hover{
+    color: red;
+}
+.navbar{
+    margin: 30px 50px;
+    height: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #444444;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 25px;  
+    
+}
+.navbar a:hover{
+    color:red;
+}
+.navbar span{
+    color: blue;
+    font-weight: 600;
+}
+.navbar span:hover{
+    color: red;
+}
+.navbar button{
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar button:hover{
+    color: red;
+}
+.main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px
+}
+.img{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(WhatsApp\ Image\ 2024-08-04\ at\ 20.20.27_22bf5cb7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.side_box{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.h h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #191919a7;
+}
+.para{
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    color:#191919a7;
+}
+.para span{
+    color: darkorchid;
+}
+.button{
+    margin-top:15px;
+}
+.button button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#b1{
+    color: white;
+    background-color: #444444;
+    font-weight: 550;
+}
+#b1:hover{
+    color:#444444;
+    background-color:white;
+}
+#b2{
+    font-weight: 550;
+}
+#b2:hover{
+    color:white;
+    background-color:#444444;
+}
